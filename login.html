@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Iniciar Sesión</title>
+   <!-- Enlace al único archivo de estilos -->
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+
+   <!-- Contenedor para centrar la tarjeta en la pantalla -->
+   <div class="contenedor" id="cont_login">
+      
+       <!-- Al enviar el formulario, viaja a la página de aterrizaje -->
+        <form class="tarjeta" action="bienvenida.html" method="GET">
+           <h2>Iniciar Sesión</h2>
+           <p>Ingresa tu usuario y contraseña para acceder</p>
+
+           <!-- Campo 1: Usuario -->
+           <div class="campo">
+               <label for="usuario">Usuario o Correo:</label>
+               <input
+                   type="text"
+                   id="usuario"
+                   name="usuario"
+                   placeholder="Ejemplo: juan123"
+                   required
+               >
+           </div>
+
+
+           <!-- Campo 2: Contraseña -->
+           <div class="campo">
+               <label for="clave">Contraseña:</label>
+               <input
+                   type="password"
+                   id="clave"
+                   name="clave"
+                   placeholder="Ingresa tu clave"
+                   required
+               >
+           </div>
+           
+           <!-- Botón para ingresar -->
+           <button type="submit" class="boton">
+               Ingresar
+            </button>
+    </form>
+
+
+   </div>
+
+
+</body>
+</html>

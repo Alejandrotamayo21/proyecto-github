@@ -1,0 +1,157 @@
+/* =========================================================
+  ARCHIVO ÚNICO: estilos.css
+  Estilos CSS básicos para Login y Aterrizaje
+  ========================================================= */
+
+
+/* 1. Fondo general y tipografía */
+body {
+   background-color: #e9ecef;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+/* 2. Contenedor que centra la tarjeta vertical y horizontalmente */
+.contenedor {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+
+/* 3. Tarjeta blanca para el formulario y el aterrizaje */
+.tarjeta {
+   background-color: #ffffff;
+   width: 100%;
+   max-width: 360px;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   box-sizing: border-box;
+}
+
+
+.tarjeta h2 {
+   margin-top: 0;
+   margin-bottom: 8px;
+   color: #333333;
+}
+
+
+.tarjeta p {
+   margin-top: 0;
+   margin-bottom: 20px;
+   color: #666666;
+   font-size: 14px;
+}
+
+
+/* 4. Estilos de los campos (etiquetas e inputs) */
+.campo {
+   text-align: left;
+   margin-bottom: 16px;
+}
+
+
+.campo label {
+   display: block;
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 6px;
+   color: #444444;
+}
+
+
+.campo input {
+   width: 100%;
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+
+.campo input:focus {
+   border-color: #0066cc;
+   outline: none;
+}
+
+
+/* 5. Botón principal */
+.boton {
+   display: block;
+   width: 100%;
+   padding: 12px;
+   background-color: #0066cc;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+
+.boton:hover {
+   background-color: #004c99;
+}
+
+
+/* 6. Estilos específicos para la página de aterrizaje */
+.icono-exito {
+   width: 60px;
+   height: 60px;
+   background-color: #d4edda;
+   color: #155724;
+   font-size: 32px;
+   font-weight: bold;
+   line-height: 60px;
+   border-radius: 50%;
+   margin: 0 auto 15px auto;
+}
+
+
+.mensaje-aterrizaje {
+   background-color: #f8f9fa;
+   border: 1px solid #dee2e6;
+   border-radius: 6px;
+   padding: 14px;
+   font-size: 13px;
+   color: #495057;
+   margin-bottom: 20px;
+   line-height: 1.5;
+}
+
+
+.enlace-boton {
+   text-align: center;
+}
+
+/* Mis cambios */
+
+#cont_bienvenida {
+   background-color: #268df5;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cont_alerta {
+   background-color: rgb(216, 255, 242);
+}
+#cont_login {
+   background-color: #268df5;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form input:hover{
+   transform: scale(1, 1.2);
+   border-color: #268df5;
+}
